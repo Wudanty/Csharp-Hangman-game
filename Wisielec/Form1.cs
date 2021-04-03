@@ -37,7 +37,7 @@ namespace Wisielec {
                 labelWordView.Text = gameState.hiddenWord;
                 gameState.wordIsSet = true;
             }
-
+            textBoxWord.Text = "";
         }
 
         private void textBox_TextChanged(object sender, EventArgs e) {
